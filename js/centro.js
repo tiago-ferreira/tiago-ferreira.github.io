@@ -84,7 +84,7 @@ $( document ).ready(function() {
 
 		var mapOptions = {
 			    zoom: 16,
-			    center: new google.maps.LatLng(36.1888, 44.013),
+			    center: new google.maps.LatLng(-15.7998988,-47.8962291),
 			    mapTypeId: google.maps.MapTypeId.ROADMAP,
 				mapTypeControl: false,
 				scrollwheel: false,
@@ -113,7 +113,7 @@ $( document ).ready(function() {
 
 
 
-		var companyPos = new google.maps.LatLng(36.1888, 44.013);
+		var companyPos = new google.maps.LatLng(-15.7998988,-47.8962291);
 
 		var companyMarker = new google.maps.Marker({
 			position: companyPos,
